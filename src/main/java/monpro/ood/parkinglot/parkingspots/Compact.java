@@ -1,6 +1,9 @@
-package monpro.ood.parkinglot;
+package monpro.ood.parkinglot.parkingspots;
 
-public class Large extends ParkingSpot {
+import monpro.ood.parkinglot.vehicle.Vehicle;
+
+public class Compact extends ParkingSpot {
+
     @Override
     public boolean assignVehicle(Vehicle vehicle) {
         if (isFree()) {

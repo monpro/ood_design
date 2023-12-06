@@ -1,7 +1,11 @@
-package monpro.ood.parkinglot;
+package monpro.ood.parkinglot.vehicle;
 
-public class Vehicle {
+import monpro.ood.parkinglot.parkingspots.ParkingTicket;
+
+public abstract class Vehicle {
     private String licenseNumber;
+
+    public abstract void assignTicket(ParkingTicket ticket);
 
     public String getLicenseNumber() {
         return licenseNumber;

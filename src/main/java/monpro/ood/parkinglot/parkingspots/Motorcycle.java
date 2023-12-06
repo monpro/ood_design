@@ -1,4 +1,6 @@
-package monpro.ood.parkinglot;
+package monpro.ood.parkinglot.parkingspots;
+
+import monpro.ood.parkinglot.vehicle.Vehicle;
 
 public class Motorcycle extends ParkingSpot {
     @Override
